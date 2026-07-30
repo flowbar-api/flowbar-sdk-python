@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "flowbarai"
+version = "1.0.0"
+description = "Official Python SDK for FlowBar AI — one API key for 50+ frontier AI models. OpenAI-compatible."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = ["openai>=1.0.0"]
+keywords = ["flowbar", "ai", "api", "openai", "llm", "gpt", "claude", "deepseek", "qwen"]
+authors = [{name = "FlowBar AI", email = "hi@flowbarai.com"}]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://flowbarai.com"
+Repository = "https://github.com/flowbar-api/flowbar-sdk-python"
